@@ -1,0 +1,47 @@
+* {
+	font-family: Lato;
+	color: white;
+}
+
+body {
+	background-color: #00C3FB;
+	margin: 0;
+    padding: 0;
+}
+
+#name-header {
+	text-align: center;
+	font-size: 80px;
+	padding-left: 50px;
+	padding-top: 160px;
+}
+
+h2 {
+	font-size: 40px;
+	padding-left: 30%;
+}
+
+img {
+	height: 400px;
+	vertical-align: baseline;
+}
+
+.body-hide {
+    overflow: hidden;
+    float: left;
+    vertical-align: baseline;
+}
+
+.bleed-bottom {
+    height: 100px;
+    margin: 0px 40px -9999px 20px;    
+    padding: 0px 10px 10250px 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFF00;
+}
