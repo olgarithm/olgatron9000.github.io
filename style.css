@@ -1,19 +1,21 @@
-* {
+html {
 	font-family: Lato;
 	color: white;
+	overflow: hidden;
 }
 
 body {
 	background-color: #00C3FB;
 	margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #name-header {
 	text-align: center;
 	font-size: 80px;
 	padding-left: 50px;
-	padding-top: 160px;
+	padding-top: 135px;
 }
 
 h2 {
@@ -38,8 +40,9 @@ img {
     padding: 0px 10px 10250px 20px;
 }
 
-a {
+a, a:visited, a:active {
 	text-decoration: none;
+	color: white;
 }
 
 a:hover {
