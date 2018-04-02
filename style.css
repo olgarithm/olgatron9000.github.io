@@ -11,6 +11,10 @@ body {
     overflow: hidden;
 }
 
+#project-body {
+	background-color: #424242;
+}
+
 #name-header {
 	text-align: center;
 	font-size: 80px;
@@ -47,4 +51,22 @@ a, a:visited, a:active {
 
 a:hover {
 	color: #FFFF00;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 300px;
+  width: auto;
 }
