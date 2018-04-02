@@ -53,6 +53,39 @@ a:hover {
 	color: #FFFF00;
 }
 
+#contact img {
+   border: 3px solid transparent;
+   width: 30px;
+   height: auto;
+   margin: 5px;
+   vertical-align: middle;
+}
+
+#linked-in img {
+	width: 40px;
+	height: auto;
+}
+
+#contact {
+	margin-left: 77%;
+	list-style-type: none;
+}
+
+#contact li {
+	display: inline;
+}
+
+#contact img:hover { 
+	margin-top: -3px; 
+}
+
+.fade { 
+	-webkit-transition: all .2s linear; 
+	-o-transition: all .2s linear; 
+	-moz-transition: all .2s linear; 
+	transition: all .2s linear; 
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
