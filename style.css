@@ -16,7 +16,7 @@ body {
 }
 
 #project-body {
-	background-color: #424242;
+	background-color: #4C4C4C;
   overflow: scroll;
 }
 
@@ -130,7 +130,7 @@ a:hover {
   padding: 0 4px;
 }
 
-.column .image img {
+.column .image-container img {
   margin-top: 8px;
   vertical-align: middle;
   height: 250px;
@@ -141,43 +141,33 @@ a:hover {
   border-radius: 2px;
 }
 
-.image {
-	display: inline;
+.image-container {
   position: relative;
-  width: 250px;
-  height: auto;
-}   
+  display: inline-block;
+}
 
-.image:after, .image:before {
+.overlay {
   position: absolute;
-  opacity: 0;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-}
-
-.image:after {
-  content:'\A';
-  width: 100%; 
-  height: 2000%;
-  left: 0;
-  background: rgba(0,0,0,0.65);
-}
-
-.image:before {
-  content: attr(data-content);
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  z-index: 1;
   bottom: 0;
-  padding: 4px 10px;
-  text-align: center;
+  height: 255px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.85;
+}
+
+.text {
+  color: white;
   font-size: 20px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
 }
-
-.image:hover:after, .image:hover:before {
-  opacity: 1;
-}
-
