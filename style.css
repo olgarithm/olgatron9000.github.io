@@ -7,12 +7,17 @@ html {
 body {
 	background-color: #00C3FB;
 	margin: 0;
-    padding: 0;
-    overflow: hidden;
+  padding: 0;
+  overflow: hidden;
+}
+
+#project-html {
+  overflow: scroll;
 }
 
 #project-body {
 	background-color: #424242;
+  overflow: scroll;
 }
 
 #name-header {
@@ -100,7 +105,7 @@ a:hover {
 .column .image img {
   margin-top: 8px;
   vertical-align: middle;
-  height: 300px;
+  height: 275px;
   width: auto;
 }
 
