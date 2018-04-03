@@ -20,6 +20,33 @@ body {
   overflow: scroll;
 }
 
+#project-header {
+  text-align: center;
+}
+
+#project-head {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+button {
+  background-color: #00C3FB;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#home-btn {
+  margin-left: 10%;
+  position: relative;
+  display: inline;
+}
+
 #name-header {
 	text-align: center;
 	font-size: 80px;
@@ -38,15 +65,15 @@ img {
 }
 
 .body-hide {
-    overflow: hidden;
-    float: left;
-    vertical-align: baseline;
+  overflow: hidden;
+  float: left;
+  vertical-align: baseline;
 }
 
 .bleed-bottom {
-    height: 100px;
-    margin: 0px 40px -9999px 20px;    
-    padding: 0px 10px 10250px 20px;
+  height: 100px;
+  margin: 0px 40px -9999px 20px;    
+  padding: 0px 10px 10250px 20px;
 }
 
 a, a:visited, a:active {
@@ -59,11 +86,11 @@ a:hover {
 }
 
 #contact img {
-   border: 3px solid transparent;
-   width: 30px;
-   height: auto;
-   margin: 5px;
-   vertical-align: middle;
+  border: 3px solid transparent;
+  width: 30px;
+  height: auto;
+  margin: 5px;
+  vertical-align: middle;
 }
 
 #linked-in img {
@@ -95,6 +122,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  text-align: center;
 }
 
 .column {
@@ -105,45 +133,51 @@ a:hover {
 .column .image img {
   margin-top: 8px;
   vertical-align: middle;
-  height: 275px;
+  height: 250px;
   width: auto;
+  border-color: #000000;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 2px;
 }
 
 .image {
 	display: inline;
-    position:relative;
-    width:400px;
-    height:400px;
+  position: relative;
+  width: 250px;
+  height: auto;
 }   
 
 .image:after, .image:before {
-    position:absolute;
-    opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 .image:after {
-    content:'\A';
-    width:100%; 
-    height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
+  content:'\A';
+  width: 100%; 
+  height: 2000%;
+  left: 0;
+  background: rgba(0,0,0,0.65);
 }
 
 .image:before {
-    content: attr(data-content);
-    width:100%;
-    color:#fff;
-    z-index:1;
-    bottom:0;
-    padding:4px 10px;
-    text-align:center;
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
+  content: attr(data-content);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 1;
+  bottom: 0;
+  padding: 4px 10px;
+  text-align: center;
+  font-size: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .image:hover:after, .image:hover:before {
-    opacity:1;
+  opacity: 1;
 }
 
