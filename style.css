@@ -1,26 +1,23 @@
 html {
 	font-family: Lato;
 	color: white;
-	overflow: hidden;
+}
+
+#home-html, #home-body {
+  overflow: hidden;
 }
 
 body {
 	background-color: #00C3FB;
 	margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-
-#project-html {
-  overflow: scroll;
 }
 
 #project-body {
 	background-color: #4C4C4C;
-  overflow: scroll;
 }
 
-#project-header {
+.header {
   text-align: center;
 }
 
@@ -29,11 +26,27 @@ body {
   margin-left: 20%;
 }
 
+#teach-head {
+  display: inline-block;
+  margin-left: 22%;
+  margin-right: 10%;
+}
+
+.image-div {
+  text-align: center;
+}
+
+.in-line-image {
+  border: 5px #272626 solid;
+  width: 600px;
+  height: auto;
+}
+
 button {
   background-color: #00C3FB;
   border: none;
   color: white;
-  padding: 10px 25px;
+  padding: 10px 20px;
   text-align: center;
   display: inline;
   border-radius: 5px;
@@ -136,7 +149,7 @@ a:hover {
   height: 250px;
   width: auto;
   border-color: #000000;
-  border-width: 3px;
+  border-width: 3.5px;
   border-style: solid;
   border-radius: 2px;
 }
@@ -170,4 +183,14 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   z-index: 1;
+}
+
+#teach-body {
+  background-color: #501e8c;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
