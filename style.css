@@ -32,7 +32,7 @@ body {
   margin-right: 10%;
 }
 
-.image-div {
+.image-figure {
   text-align: center;
 }
 
@@ -189,7 +189,7 @@ a:hover {
   background-color: #501e8c;
 }
 
-p {
+p, ul {
   font-size: 20px;
   margin-left: 150px;
   margin-right: 150px;
