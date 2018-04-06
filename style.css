@@ -17,11 +17,15 @@ body {
 	background-color: #4C4C4C;
 }
 
+#fun-stuff-body {
+  background-color: #f49242;
+}
+
 .header {
   text-align: center;
 }
 
-#project-head {
+#project-head, #fun-stuff-head {
   display: inline-block;
   margin-left: 20%;
 }
@@ -30,6 +34,11 @@ body {
   display: inline-block;
   margin-left: 22%;
   margin-right: 10%;
+}
+
+#flower {
+  height: 700px;
+  width: auto;
 }
 
 .image-figure {
@@ -189,7 +198,7 @@ a:hover {
   background-color: #501e8c;
 }
 
-p, ul {
+p, #learn-links {
   font-size: 20px;
   margin-left: 150px;
   margin-right: 150px;
