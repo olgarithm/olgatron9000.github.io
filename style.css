@@ -37,8 +37,12 @@ body {
 }
 
 #flower {
-  height: 700px;
+  height: 650px;
   width: auto;
+}
+
+#stats {
+  margin-top: 120px;
 }
 
 .image-figure {
