@@ -20,11 +20,11 @@
 	function qs(sel) { return document.querySelector(sel); }
    
 	window.onload = function() {
-	$("resumeclick").onclick = getResume;
-   };
+	 $("resumeclick").onclick = getResume;
+  };
    
-   function getResume() {
-      $("resume").classList.toggle("hidden");
-      PDFObject.embed("Olga-Andreeva-Resume.pdf", "#resume", options);
-   }
+  function getResume() {
+    $("resume").classList.toggle("hidden");
+    PDFObject.embed("Olga-Andreeva-Resume.pdf", "#resume", options);
+  }
 })();
