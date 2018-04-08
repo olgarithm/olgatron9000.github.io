@@ -118,6 +118,19 @@ a, a:visited, a:active {
 
 a:hover {
 	color: #FFFF00;
+  cursor: pointer;
+}
+
+#resumehead {
+  text-align: center;
+}
+
+#resume {
+  max-width: 100%;
+  width: 800px;
+  height: 1025px;
+  border: 10px solid #414447;
+  margin: auto;
 }
 
 #contact img {
@@ -140,6 +153,10 @@ a:hover {
 
 #contact li {
 	display: inline;
+}
+
+.hidden {
+  display: none;
 }
 
 #contact img:hover { 

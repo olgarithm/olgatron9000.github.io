@@ -5,9 +5,11 @@
 	  <meta charset="utf-8">
 	  <title>Fun Stuff</title>
 	  <link rel="stylesheet" href="../style.css">
+	  <link rel="shortcut icon" type="image/png" href="../img/head.png">
 	  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
 	  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 	  <script src="https://d3js.org/d3.v5.min.js"></script>
+	  <script src="../pdfobject.js"></script>
 	  <script src="../map.js"></script>
 	</head>
 
@@ -41,16 +43,22 @@
 			<p class="list-header">Some Hobbies:</p>
 			<ul>
 				<li>Bouldering</li>
-				<li><a href="https://www.instagram.com/olgadrone9000">Editing drone videos</a></li>
-				<li><a href="https://twitter.com/olgatron9000">Writing existential tweets</a></li>
+				<li><a href="https://www.instagram.com/olgadrone9000" target="_">Editing drone videos</a></li>
+				<li><a href="https://twitter.com/olgatron9000" target="_">Writing existential tweets</a></li>
 				<li>Playing soccer</li>
 			</ul>
 		</div>
-		<svg width="100" height="150">
-		    <rect x="0" width="15" fill="#d1c9b8"></rect>
+		<br/>
+		<br/>
+		<!--<svg width="100" height="150">
+		    <rect x="0" width="15" fill="#ffffff"></rect>
 		    <rect x="25" width="15" fill="#d1c9b8"></rect>
 		    <rect x="50" width="15" fill="#d1c9b8"></rect>
 		    <rect x="75" width="15" fill="#d1c9b8"></rect>
-		</svg>
+		</svg> -->
+      	<p id="resumehead">
+      		Want to learn more? Check out <a id="resumeclick">my resume</a>!
+      	</p>
+      	<div id="resume" class="hidden"></div>
 	</body>
 </html>
