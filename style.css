@@ -45,9 +45,13 @@ body {
   margin-top: 100px;
 }
 
-.stats {
+.list-header {
   text-indent: -2em;
   margin-bottom: -10px;
+}
+
+#teach-body .list-header {
+  text-indent: 0;
 }
 
 .image-figure {
