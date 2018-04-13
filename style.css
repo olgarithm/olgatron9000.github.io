@@ -233,6 +233,10 @@ a:hover {
   opacity: 0.85;
 }
 
+.code {
+  text-align: center;
+}
+
 .text {
   color: white;
   font-size: 20px;
@@ -249,7 +253,11 @@ a:hover {
   background-color: #501e8c;
 }
 
-p, #learn-links {
+#git-body {
+  background-color: #2E8B57;
+}
+
+p, .learn-links {
   font-size: 20px;
   margin-left: 150px;
   margin-right: 150px;
