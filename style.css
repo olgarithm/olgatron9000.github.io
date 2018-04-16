@@ -13,6 +13,11 @@ body {
   padding: 0;
 }
 
+.learn-head {
+  font-size: 25px;
+  margin-left: 150px;
+}
+
 #project-body {
 	background-color: #4C4C4C;
 }
@@ -56,11 +61,13 @@ body {
 
 .image-figure {
   text-align: center;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 .in-line-image {
   border: 5px #272626 solid;
-  width: 600px;
+  width: 650px;
   height: auto;
 }
 
@@ -89,7 +96,7 @@ button {
 	padding-top: 135px;
 }
 
-h2 {
+#index-list {
 	font-size: 40px;
 	padding-left: 30%;
 }
