@@ -28,7 +28,7 @@
 		<br/>
 		<div class="code">
 			<p>llamas are funny</p>
-			<p>they are nice, soft to the touch</p>
+			<p>they are nice, soft to the touch,</p>
 			<p>and make me happy</p>
 		</div>
 		<br/>
@@ -36,7 +36,7 @@
 		<br/>
 		<div class="code">
 			<p>llamas are lovely</p>
-			<p>they are cute, soft to the touch</p>
+			<p>they are cute, soft to the touch,</p>
 			<p>and make me joyful</p>
 		</div>
 		<br/>
@@ -49,11 +49,37 @@
 		  <img src="../img/poetry-vc.png" class="in-line-image">
 		  <figcaption>three <span class="tooltip">commits<span class="tooltiptext">commit is a fun word that means "a change made to code!"</span></span> made by two contributors</figcaption>
 		</figure>
-		<p>Here, we can see who made changes to the poem, when they made those changes, and a lil summary of the changes. If we click on one of the commits, we can see exactly a breakdown of how the poem changed.</p>
-		<p>This concept also extends to other people who work on projects with you- we could say that your brother was an (unhelpful!) contributor to your poem who made some changes that you weren't happy with. Using version control, you can revert the destruction of your poem, collect your Pulitzer, and retire to a llama sanctuary in Peru.</p>
-		</div>
-		<br/>
-		<p></p>
+		<p>Let's break down all the details contained within this snippet of code history which allow us to quickly view older versions of code:</p>
+		<ul class="learn-list">
+			<li>who authored the commit</li>
+			<li>when they made that commit</li>
+			<li>a lil description of what they changed</li>
 		</ul>
+		<p>Version control becomes especially useful when multiple people are working on projects with you- we could say that your brother was an (unhelpful!) contributor to your poem who made some changes that you weren't happy with. Using version control, you can revert the destruction of your poem, collect your Pulitzer, and retire to a llama sanctuary in Peru.</p>
+		<br/>
+		<h2 class="learn-head">Local and Hosted Code</h2>
+		<p>I've been using the phrase "version control" a lot, but this has been sort of an abstraction. What tools do we use to keep track of the history of our code? Some examples of version control systems are CVS, SVN, Git, Mercurial, and Bazaar. It's not important to know how to use all of these- just pick one! I have experience with Git, so that's what we'll dive into.</p>
+		<p>Some fast facts about Git:</p>
+		<ul class="learn-list">
+			<li>Developed by Linus Torvalds in 2005</li>
+			<li>Has no singular centralized code base that the code can be pulled from</li>
+			<li>Different branches are responsible for hosting different areas of the code</li>
+		</ul>
+		<p>We're gonna discuss the foundations of Git through the best possible way- another hypothetial situation! After winning your Pulitzer, poets from all around the world are trying to collaborate on your next poem. You agree, but you've learned from your mistakes, so you force everyone to use Git.</p>
+		<p>You and two other poets lay down some hard-hitting lines in a publically shared Google Doc:</p>
+		<figure class="image-figure">
+		  <img src="../img/original-dogs.png" class="in-line-image">
+		  <figcaption>the original dog poem</figcaption>
+		</figure>
+		<p>You can think of this Google Doc as the central <span class="tooltip">code base<span class="tooltiptext">complete body of source code for a given software program or application</span></span> between the three of you. Everyone has access to it, and as of right now, this is the official status of the poem. Each person thinks the poem can be better if worked on longer, but also is tired of social interaction, so they all make a copy of the Google Doc and start working on their own iteration.</p>
+		<figure class="image-figure">
+		  <img src="../img/original-copy.png" class="in-line-image">
+		  <figcaption>the three copies</figcaption>
+		</figure>
+		<p>Okay! Now we have four different copies of this poem floating around, even if it looks like we still only have one poem. Notice that each poet has their own individual copy that is separate from each others and from the master copy. Now let's say that you disagree- it's quite obvious to you that St. Bernards are better than samoyeds! If we make changes to our own copy (and don't commit them to the master copy), these changes will not be reflected in any of the other copies:</p>
+		<figure class="image-figure">
+		  <img src="../img/original-copy-modified.png" class="in-line-image">
+		  <figcaption>notice how we only changed our own copy!</figcaption>
+		</figure>
 	</body>
 </html>
