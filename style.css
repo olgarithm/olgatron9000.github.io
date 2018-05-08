@@ -68,6 +68,12 @@ body {
   margin-right: 10%;
 }
 
+#git-head {
+  display: inline-block;
+  margin-left: 28%;
+  margin-right: 1%;
+}
+
 #flower {
   height: 550px;
   width: auto;
@@ -109,6 +115,15 @@ button {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.btn-next {
+  margin-left: 3%;
+}
+
+.btn-secondary {
+  background-color: #808080;
+  margin-left: 1%;
 }
 
 #home-btn {
