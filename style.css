@@ -1,5 +1,129 @@
+@media screen and (max-width: 1020px) {
+  #name-header {
+    margin-top: 40%;
+    font-size: 5em;
+    padding-left: 10%;
+  }
+
+  #index-list {
+    font-size: 3em;
+    padding-left: 20%;
+  }
+
+  #contact img {
+    border: 3px solid transparent;
+    width: 50px;
+    height: auto;
+    margin: 1%;
+    vertical-align: middle;
+  }
+
+  #linked-in img {
+    width: 60px;
+    height: auto;
+  }
+
+  #contact {
+    margin-left: 60%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    list-style-type: none;
+  }
+
+  img {
+    height: 470%;
+  }
+
+  #stats-head {
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 5%;
+  }
+
+  #flower {
+    height: 650px;
+    width: auto;
+    padding-left: 10%;
+  }
+
+  .list-header {
+    text-indent: -4em;
+    margin-bottom: -10px;
+    text-decoration: underline;
+  }
+
+  .header {
+    font-size: 30px;
+    padding-right: 10%;
+  }
+
+  button {
+    padding: 15px 25px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1021px) {
+  #name-header {
+    font-size: 5vw;
+    padding-left: 8%;
+  }
+
+  #index-list {
+    font-size: 3vw;
+    padding-left: 33%;
+  }
+
+  #contact img {
+    border: 3px solid transparent;
+    width: 30px;
+    height: auto;
+    margin: 1%;
+    vertical-align: middle;
+  }
+
+  #linked-in img {
+    width: 40px;
+    height: auto;
+  }
+
+  #contact {
+    margin-left: 73%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    list-style-type: none;
+  }
+
+  img {
+    height: 400%;
+  }
+
+  #stats-head {
+    margin-top: 5%;
+    margin-left: 55%;
+  }
+
+  #flower {
+    height: 550px;
+    width: auto;
+    float: left;
+    padding-left: 10%;
+  }
+
+  .list-header {
+    text-indent: -2em;
+    margin-bottom: -10px;
+    text-decoration: underline;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
 html {
-	font-family: Lato;
+	font-family: 'Lato', sans-serif;
 	color: white;
 }
 
@@ -74,24 +198,6 @@ body {
   margin-right: 1%;
 }
 
-#flower {
-  height: 550px;
-  width: auto;
-  float: left;
-  padding-left: 10%;
-}
-
-#stats-head {
-  margin-top: 5%;
-  margin-left: 55%;
-}
-
-.list-header {
-  text-indent: -2em;
-  margin-bottom: -10px;
-  text-decoration: underline;
-}
-
 #teach-body .list-header {
   text-indent: 0;
 }
@@ -112,11 +218,9 @@ button {
   background-color: #00C3FB;
   border: none;
   color: white;
-  padding: 10px 20px;
   text-align: center;
   display: inline;
   border-radius: 5px;
-  font-size: 16px;
   cursor: pointer;
 }
 
@@ -137,25 +241,17 @@ button {
 
 #name-header {
 	text-align: center;
-	font-size: 5vw;
-	padding-left: 8%;
 	padding-top: 10%;
-}
-
-#index-list {
-	font-size: 3vw;
-	padding-left: 33%;
-}
-
-img {
-	height: 400%;
-  width: auto;
-	vertical-align: baseline;
 }
 
 .body-hide {
   overflow: hidden;
   float: left;
+  vertical-align: baseline;
+}
+
+img {
+  width: auto;
   vertical-align: baseline;
 }
 
@@ -215,26 +311,6 @@ a:hover {
   height: 1025px;
   border: 10px solid #414447;
   margin: auto;
-}
-
-#contact img {
-  border: 3px solid transparent;
-  width: 30px;
-  height: auto;
-  margin: 1%;
-  vertical-align: middle;
-}
-
-#linked-in img {
-	width: 40px;
-	height: auto;
-}
-
-#contact {
-	margin-left: 73%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-	list-style-type: none;
 }
 
 #contact li {
