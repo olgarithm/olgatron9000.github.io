@@ -44,7 +44,10 @@
   #flower {
     height: 650px;
     width: auto;
-    padding-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .list-header {
@@ -107,12 +110,12 @@
   #flower {
     height: 550px;
     width: auto;
-    float: left;
     padding-left: 10%;
+    margin-top: -5%;
   }
 
   .list-header {
-    text-indent: -2em;
+    text-indent: -7em;
     margin-bottom: -10px;
     text-decoration: underline;
   }
@@ -262,6 +265,9 @@ img {
   bottom: 0;
   left: 0;
   height: auto;
+}
+
+.no-event {
   pointer-events: none;
 }
 
