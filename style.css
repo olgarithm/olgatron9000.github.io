@@ -8,6 +8,7 @@
   #index-list {
     font-size: 3em;
     padding-left: 20%;
+    z-index: 2;
   }
 
   #contact img {
@@ -261,6 +262,7 @@ img {
   bottom: 0;
   left: 0;
   height: auto;
+  pointer-events: none;
 }
 
 .bleed-bottom {
