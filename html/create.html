@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Creating</title>
+	  <link rel="stylesheet" href="../style.css">
+	  <link rel="shortcut icon" type="image/png" href="../img/head.png">
+	  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+	  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	  <script src="../js/loading.js"></script>
+	  <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
+	  <script src="../js/pdfobject.js"></script>
+	  <script src="../js/infographic-load.js"></script>
+	</head>
+
+	<body id="create-body">
+		<div class="se-pre-con"></div>
+		<br/>
+		<br/>
+		<div class="header">
+			<h1 id="create-head">Browse My Creations!</h1>
+			<a href="../index.html"><button type="button" class="btn btn-default">Back Home</button></a>
+		</div>
+		<br/>
+		<p id="create-intro">Every now and again, I get particularly inspired to work on something creative. Here are a couple animations, edits, and an infographic I've recently worked on!</p>
+		<div class="container" id="video-containers">
+  			<div class="row">
+    			<div class="col video-container">
+					<video id='russian-doll-video' class='video-js video-border' controls preload='auto' width='425' height='240' poster='../img/russian-doll.png' data-setup='{}'>
+		    			<source src='../video/RussianDoll.mp4' type='video/mp4'>
+					    <p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+				<div class="col video-container">
+					<video id='mac-and-cheese-video' class='video-js video-border' controls preload='auto' width='320' height='240' poster='../img/mac-and-cheese.png' data-setup='{}'>
+				    	<source src='../video/MacAndCheese.mp4' type='video/mp4'>
+				    	<p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+				<div class="col video-container">
+					<video id='drone-washington-video' class='video-js video-border' controls preload='auto' width='425' height='240' poster='../img/drone-washington.png' data-setup='{}'>
+					    <source src='../video/DroneWashington.mp4' type='video/mp4'>
+					    <p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+				<div class="col video-container">
+					<video id='cornerstone-video' class='video-js video-border' controls preload='auto' width='198' height='240' poster='../img/cornerstone.png' data-setup='{}'>
+				    	<source src='../video/Cornerstone.mp4' type='video/mp4'>
+				    	<p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col video-container">
+					<video id='women-2019-video' class='video-js video-border' controls preload='auto' width='245' height='245' poster='../img/woman2019.png' data-setup='{}'>
+					    <source src='../video/InternationalWomanDay2019.mp4' type='video/mp4'>
+					    <p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+				<div class="col video-container">
+					<video id='women-2017-video' class='video-js video-border' controls preload='auto' width='433' height='245' poster='../img/woman2017.png' data-setup='{}'>
+					    <source src='../video/InternationalWomanDay2017.mp4' type='video/mp4'>
+					    <p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+				
+				<div class="col video-container">
+					<video id='new-york-video' class='video-js video-border' controls preload='auto' width='245' height='245' poster='../img/new-york.png' data-setup='{}'>
+					    <source src='../video/NewYork.mp4' type='video/mp4'>
+					    <p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+				<div class="col video-container">
+					<video id='cryptography-video' class='video-js video-border' controls preload='auto' width='445' height='245' poster='../img/diffie-hellman.png' data-setup='{}'>
+				    	<source src='../video/DiffieHellmanKeyExchange.mp4' type='video/mp4'>
+				    	<p class='vjs-no-js'>
+					      To view this video please enable JavaScript, and consider upgrading to a web browser that
+					      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+					    </p>
+					</video>
+				</div>
+			</div>
+		</div>
+		<div id="infographic"></div>
+	</body>
+</html>
