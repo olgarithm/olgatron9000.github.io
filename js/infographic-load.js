@@ -19,6 +19,6 @@
 	function qs(sel) { return document.querySelector(sel); }
    
 	window.onload = function() {
-	 PDFObject.embed("../pdf/Rotten-Tomatoes-Infographic.pdf", "#infographic", options);
+	 PDFObject.embed("pdf/Rotten-Tomatoes-Infographic.pdf", "#infographic", options);
   	};
 })();

@@ -25,6 +25,6 @@
    
   function getResume() {
     $("resume").classList.toggle("hidden");
-    PDFObject.embed("../pdf/Olga-Andreeva-Resume.pdf", "#resume", options);
+    PDFObject.embed("pdf/Olga-Andreeva-Resume.pdf", "#resume", options);
   }
 })();
