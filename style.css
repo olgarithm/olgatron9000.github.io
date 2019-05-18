@@ -449,3 +449,7 @@ p, .learn-links, .learn-list {
 #create-intro {
   margin-left: 160px;
 }
+
+.underline {
+  text-decoration: underline;
+}
